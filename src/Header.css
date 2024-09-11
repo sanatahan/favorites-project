@@ -1,0 +1,21 @@
+.Header {
+  background-color: #ffffff; /* تغيير اللون إلى الأبيض */
+  padding: 20px;
+  text-align: center;
+}
+
+.Header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header-text {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.Header-image {
+  width: 300px;
+  height: auto;
+}
