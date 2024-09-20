@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="dropdown">
-          <h1><Link to="/">Home</Link></h1> 
+          <h1><Link to="/home">Home</Link></h1> 
           <ul className="dropdown-menu">
             <li>Option 1</li>
             <li>Option 2</li>
@@ -15,7 +15,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="dropdown">
-          <h2><Link to="/about">About</Link></h2> 
+          <h2><Link to="/about">About</Link></h2>
           <ul className="dropdown-menu">
             <li>Option 1</li>
             <li>Option 2</li>
@@ -23,7 +23,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="dropdown">
-          <h2><Link to="/signup">Sign Up</Link></h2> 
+          <h2><Link to="/signup">Sign Up</Link></h2>
         </div>
       </div>
     </header>

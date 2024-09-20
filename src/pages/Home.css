@@ -1,5 +1,5 @@
 .home-page {
-  background-image: url('../assets/software.png'); 
+  background-image: url('../assets/software.png');
   background-size: cover;
   min-height: 100vh;
   padding: 0 0 24px 0;
@@ -8,7 +8,15 @@
   max-width: 696px;
   margin: 24px auto;
   position: absolute;
-  top: 45%;
+  top: 45%; 
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.dynamic-text {
+  margin-top: auto; 
+  color: blueviolet; 
+  text-align: left; 
+  position: absolute; 
+  bottom: 0px; 
+
 }
