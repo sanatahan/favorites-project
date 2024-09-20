@@ -21,7 +21,6 @@ const Home = () => {
       style={{ backgroundImage: `url(${softwareImage})` }}
     >
       <p className="dynamic-text">{homeData}</p>
-      <p>Current URL: {location.pathname}</p> 
     </div>
   );
 };

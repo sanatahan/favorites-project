@@ -21,7 +21,6 @@ const About = () => {
       style={{ backgroundImage: `url(${aboutImage})` }}
     >
       <p className="dynamic-text">{aboutData}</p>
-      <p>Current URL: {location.pathname}</p> 
     </div>
   );
 };
