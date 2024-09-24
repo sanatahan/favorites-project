@@ -1,22 +1,28 @@
 .home-page {
-  background-image: url('../assets/software.png');
-  background-size: cover;
   min-height: 100vh;
-  padding: 0 0 24px 0;
-  color: white;
-  width: 100%;
-  max-width: 696px;
-  margin: 24px auto;
-  position: absolute;
-  top: 45%; 
+  padding: 24px;
+  text-align: center; /* توسيط النص */
+}
+
+.home-image {
+  width: 50%; /* ملء عرض الحاوية */
+  max-height: 500px; /* تحديد ارتفاع أقصى للصورة */
+  object-fit: cover; /* الحفاظ على نسبة العرض إلى الارتفاع */
+  position: absolute; /* تغيير الموقع بناءً على parent */
+  top: 45%; /* تعديل قيمة top لرفع العنصر أكثر */
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.dynamic-text {
-  margin-top: auto; 
-  color: blueviolet; 
-  text-align: left; 
-  position: absolute; 
-  bottom: 0px; 
 
+.text-container {
+  margin-top: 20px; /* مساحة بين الصورة والنصوص */
+}
+
+.dynamic-text {
+  margin-top: 10px; /* مساحة بين العنوان والنص */
+  color: black; /* لون النص أسود */
+}
+
+.slider-container {
+  margin-top: 40px; /* إضافة مساحة بين النصوص والـ slider */
 }

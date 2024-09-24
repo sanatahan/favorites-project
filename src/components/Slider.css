@@ -1,0 +1,36 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.slide {
+  text-align: center;
+  margin: 0 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: rgb(162, 82, 184);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #9248a9;
+}
+
+h2 {
+  margin: 10px  255px;
+  margin-right: 170px;
+}
+
+p {
+  margin: 5px 0;
+  margin-right: -90px;
+
+}
