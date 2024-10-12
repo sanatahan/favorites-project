@@ -1,4 +1,3 @@
-// AppContent.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Header from './components/Header/Header'; 
@@ -22,7 +21,6 @@ const AppContent = () => {
 
   const data = [
     { image: logo, name: 'John', age: 25, description: 'Software Developer' },
-    // بقية البيانات
   ];
   
   
@@ -46,7 +44,6 @@ const AppContent = () => {
       <Header />
       <main>
         <Routes>
-          {/* تمرير البيانات إلى مكون Home */}
           <Route path="/home" element={<Home data={data} />} />
           <Route path="/about" element={<About />} />
           <Route path="/signup" element={<SignUp />} />

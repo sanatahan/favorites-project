@@ -1,4 +1,3 @@
-// Home.js
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 import softwareImage from '../assets/software.png';

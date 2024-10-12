@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import './SignUpForm.css'; 
+import './SignUpForm.css'; // تأكدي من وجود ملف CSS بشكل صحيح
 
 const SignUpForm = () => {
+
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',

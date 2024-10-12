@@ -1,28 +1,28 @@
 .home-page {
   min-height: 100vh;
   padding: 24px;
-  text-align: center; /* توسيط النص */
+  text-align: center; 
 }
 
 .home-image {
-  width: 50%; /* ملء عرض الحاوية */
-  max-height: 500px; /* تحديد ارتفاع أقصى للصورة */
-  object-fit: cover; /* الحفاظ على نسبة العرض إلى الارتفاع */
-  position: absolute; /* تغيير الموقع بناءً على parent */
-  top: 45%; /* تعديل قيمة top لرفع العنصر أكثر */
+  width: 50%; 
+  max-height: 500px; 
+  object-fit: cover; 
+  position: absolute; 
+  top: 45%; 
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .text-container {
-  margin-top: 20px; /* مساحة بين الصورة والنصوص */
+  margin-top: 20px; 
 }
 
 .dynamic-text {
-  margin-top: 10px; /* مساحة بين العنوان والنص */
-  color: black; /* لون النص أسود */
+  margin-top: 10px; 
+  color: black; 
 }
 
 .slider-container {
-  margin-top: 40px; /* إضافة مساحة بين النصوص والـ slider */
+  margin-top: 40px; 
 }
